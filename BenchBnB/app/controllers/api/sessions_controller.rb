@@ -1,0 +1,3 @@
+class API::SessionsController < ApplicationController {
+    
+}
