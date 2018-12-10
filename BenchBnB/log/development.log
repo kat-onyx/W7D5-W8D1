@@ -44,3 +44,835 @@ Migrating to CreateUsers (20181207232641)
   ↳ bin/rails:9
   [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/users/new" for 127.0.0.1 at 2018-12-10 09:58:10 -0800
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kat/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:01:27 -0800
+
+SyntaxError - compile error:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/a545e96a056c914b/variables" for 127.0.0.1 at 2018-12-10 10:01:28 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:01:42 -0800
+
+LoadError - Unable to autoload constant ApplicationController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/application_controller.rb to define it:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/3a1ba4e90a673192/variables" for 127.0.0.1 at 2018-12-10 10:01:42 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:04:51 -0800
+
+LoadError - Unable to autoload constant ApplicationController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/application_controller.rb to define it:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/f14cf96274f7f5c8/variables" for 127.0.0.1 at 2018-12-10 10:04:51 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:06:48 -0800
+
+SyntaxError - compile error:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/b4e6e11914d2387e/variables" for 127.0.0.1 at 2018-12-10 10:06:48 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:07:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1499ms (Views: 1494.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:08:05 -0800
+
+SyntaxError - compile error:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/9d3ea492d6abfa04/variables" for 127.0.0.1 at 2018-12-10 10:08:05 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:08:40 -0800
+
+SyntaxError - compile error:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/ffee1d402d798c1f/variables" for 127.0.0.1 at 2018-12-10 10:08:41 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:09:10 -0800
+
+SyntaxError - compile error:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/fcc56c0a6a342610/variables" for 127.0.0.1 at 2018-12-10 10:09:10 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:09:58 -0800
+
+SyntaxError - compile error:
+  app/controllers/static_pages_controller.rb:1:in `<main>'
+
+Started POST "/__better_errors/9d678e7cec788e26/variables" for 127.0.0.1 at 2018-12-10 10:09:58 -0800
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:10:19 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-12-10 10:10:37 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/" for 127.0.0.1 at 2018-12-10 10:10:45 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/" for 127.0.0.1 at 2018-12-10 10:12:43 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2018-12-10 10:12:46 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/users/new"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/session/new" for 127.0.0.1 at 2018-12-10 10:13:41 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/session/new"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/session/" for 127.0.0.1 at 2018-12-10 10:13:43 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/session"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:21:34 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:21:58 -0800
+Processing by StaticPagesController#root as */*
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2018-12-10 10:22:55 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/sessions/new"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:29:04 -0800
+
+SyntaxError - compile error:
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:30:52 -0800
+
+LoadError - Unable to autoload constant Api::UsersController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/users_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:31:23 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:31:27 -0800
+
+SyntaxError - compile error:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:33:15 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:33:17 -0800
+
+SyntaxError - compile error:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:34:16 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:34:19 -0800
+
+SyntaxError - compile error:
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:35:35 -0800
+
+LoadError - Unable to autoload constant Api::UsersController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/users_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:36:13 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:36:17 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (2.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/api/users_controller.rb:5
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 14.1ms)
+
+
+
+NoMethodError - undefined method `generate_session_token' for #<User:0x007fc9765c8d60>:
+  app/models/user.rb:13:in `ensure_session_token'
+  app/controllers/api/users_controller.rb:5:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:36:28 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"username"=>"hello", "password"=>"[FILTERED]"}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: user:
+  app/controllers/api/users_controller.rb:16:in `user_params'
+  app/controllers/api/users_controller.rb:3:in `create'
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:36:55 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/api/users_controller.rb:5
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 0.4ms)
+
+
+
+NoMethodError - undefined method `generate_session_token' for #<User:0x007fc970708758>:
+  app/models/user.rb:13:in `ensure_session_token'
+  app/controllers/api/users_controller.rb:5:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:37:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:37:24 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[36mUser Create (3.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "hello"], ["password_digest", "$2a$10$N2keO7fQmnC8zeh6WdI8S.DxtpI4PeNgCTV49LWZXyhjV3i3oVJRa"], ["session_token", "xLylc6u7u2wVoVLxpWHkfg"], ["created_at", "2018-12-10 18:37:24.096292"], ["updated_at", "2018-12-10 18:37:24.096292"]]
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:5
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 10.1ms)
+
+
+
+NoMethodError - undefined method `login' for #<Api::UsersController:0x007fc96f391878>
+Did you mean?  login!:
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:37:41 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:37:44 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "hello"], ["password_digest", "$2a$10$HyEZvsSa501mKfnSIoS8bepZAbcJpeZK6exln3RU17jXzPRxoClSO"], ["session_token", "C4yKmnlv57D0pihpa51HgQ"], ["created_at", "2018-12-10 18:37:44.903638"], ["updated_at", "2018-12-10 18:37:44.903638"]]
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:5
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 10.8ms)
+
+
+
+NoMethodError - undefined method `reset_session_token!' for #<User:0x007fc96f323b20>
+Did you mean?  reset_session_token
+               ensure_session_token
+               restore_session_token!:
+  app/controllers/application_controller.rb:16:in `login!'
+  app/controllers/api/users_controller.rb:6:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:38:17 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 80ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 10:38:20 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "hello"], ["password_digest", "$2a$10$TxJHoxe06kK1zeB9tcEE6eukAf0/20wwT3VtS2QTi71OC9NYFuK4G"], ["session_token", "3cApKYa4durn_c97svLdpQ"], ["created_at", "2018-12-10 18:38:20.472222"], ["updated_at", "2018-12-10 18:38:20.472222"]]
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:18
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "tZQ3tRehTO8oLWHJ4Kt89g"], ["updated_at", "2018-12-10 18:38:20.477395"], ["id", 3]]
+  ↳ app/models/user.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:18
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (5.0ms)
+Completed 200 OK in 108ms (Views: 13.0ms | ActiveRecord: 9.1ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:40:21 -0800
+
+SyntaxError - compile error:
+
+Started POST "/api/sessions" for 127.0.0.1 at 2018-12-10 10:40:41 -0800
+  
+ActionController::RoutingError (No route matches [POST] "/api/sessions"):
+  
+actionpack (5.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:41:10 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:41:15 -0800
+
+SyntaxError - compile error:
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:42:46 -0800
+
+LoadError - Unable to autoload constant Api::SessionsController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/sessions_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:43:50 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:43:53 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"username"=>"hello", "password"=>"[FILTERED]"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:43:55 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "hello"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 8.9ms)
+
+
+
+NoMethodError - undefined method `valid_password?' for #<Class:0x007fc9769c3230>
+Did you mean?  validators:
+  app/models/user.rb:25:in `find_by_credentials'
+  app/controllers/api/sessions_controller.rb:3:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:45:05 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:45:07 -0800
+
+SyntaxError - compile error:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:45:29 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:45:33 -0800
+
+LoadError - Unable to autoload constant Api::SessionsController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/sessions_controller.rb to define it:
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:45:48 -0800
+
+LoadError - Unable to autoload constant Api::SessionsController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/sessions_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:46:26 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:46:29 -0800
+
+LoadError - Unable to autoload constant Api::SessionsController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/sessions_controller.rb to define it:
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:46:31 -0800
+
+LoadError - Unable to autoload constant Api::SessionsController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/sessions_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:47:45 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:47:48 -0800
+
+LoadError - Unable to autoload constant Api::SessionsController, expected /Users/kat/Documents/aA/appacademy_ruby/aa_inclass/W7D5/BenchBnB/app/controllers/api/sessions_controller.rb to define it:
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:49:31 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:49:33 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "hello"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 9.0ms)
+
+
+
+NoMethodError - undefined method `valid_password?' for #<Class:0x007fc96f48d0d8>
+Did you mean?  validators:
+  app/models/user.rb:25:in `find_by_credentials'
+  app/controllers/api/sessions_controller.rb:28:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:52:21 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 73ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:52:24 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "hello"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 6.5ms)
+
+
+
+NoMethodError - undefined method `login' for #<Api::SessionsController:0x007fc96f161710>
+Did you mean?  login!:
+  app/controllers/api/sessions_controller.rb:31:in `create'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:52:43 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 10:52:46 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "hello"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:18
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "8y2YaBnj2l3m2PZImp79Ow"], ["updated_at", "2018-12-10 18:52:46.383166"], ["id", 1]]
+  ↳ app/models/user.rb:18
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:18
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.4ms)
+Completed 200 OK in 103ms (Views: 8.2ms | ActiveRecord: 9.2ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-12-10 10:53:04 -0800
+Processing by Api::SessionsController#destroy as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "8y2YaBnj2l3m2PZImp79Ow"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 1.2ms)
+
+
+
+NoMethodError - undefined method `reset_session_token!' for #<Api::SessionsController:0x007fc9763285b0>
+Did you mean?  reset_session:
+  app/controllers/application_controller.rb:20:in `logout'
+  app/controllers/api/sessions_controller.rb:17:in `destroy'
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 10:53:38 -0800
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2018-12-10 10:53:41 -0800
+Processing by Api::SessionsController#destroy as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "8y2YaBnj2l3m2PZImp79Ow"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:18
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "a8wXyl8HnH36Sf3Ip3vubg"], ["updated_at", "2018-12-10 18:53:41.375066"], ["id", 1]]
+  ↳ app/models/user.rb:18
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:18
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.4ms)
+Completed 200 OK in 29ms (Views: 9.0ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-10 11:11:53 -0800
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/kat/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#root as HTML
+  Rendering static_pages/root.html.erb within layouts/application
+  Rendered static_pages/root.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1583ms (Views: 1580.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 11:12:08 -0800
+Processing by Api::SessionsController#create as JSON
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 11:14:01 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>"hello"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+
+TypeError - no implicit conversion of Symbol into Integer:
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 11:14:34 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "hello"], ["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:18
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "u2lP8v0l9_Ch2j9AFir_1w"], ["updated_at", "2018-12-10 19:14:35.070349"], ["id", 2]]
+  ↳ app/models/user.rb:18
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:18
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (1.3ms)
+Completed 200 OK in 113ms (Views: 9.2ms | ActiveRecord: 11.5ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 11:14:45 -0800
+Processing by Api::SessionsController#create as JSON
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/api/sessions_controller.rb:4:in `create'
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 11:15:16 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user"=>{"username"=>"hello"}}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+Completed 401 Unauthorized in 4ms (Views: 0.8ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2018-12-10 11:15:33 -0800
+Processing by Api::SessionsController#create as JSON
+  Parameters: {"user"=>{"user"=>{"username"=>"hello", "password"=>"[FILTERED]"}}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:23
+Completed 401 Unauthorized in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 11:16:34 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"user"=>{"username"=>"Kat", "password"=>"[FILTERED]"}}}
+Unpermitted parameter: :user
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/api/users_controller.rb:5
+Completed 422 Unprocessable Entity in 16ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2018-12-10 11:18:21 -0800
+Processing by Api::UsersController#create as JSON
+  Parameters: {"user"=>{"username"=>"Kat", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "Kat"], ["password_digest", "$2a$10$8HGSETRCZ60tfjNOs.QSmeF7tMdx3KQQ2o3fb8XbBfyS027VfZ4AC"], ["session_token", "KNzD7xHtXmTRJ0Y3ixmiug"], ["created_at", "2018-12-10 19:18:21.958215"], ["updated_at", "2018-12-10 19:18:21.958215"]]
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/api/users_controller.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:18
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "ZKqwaqa9zdJPo8MfGLTmww"], ["updated_at", "2018-12-10 19:18:21.963685"], ["id", 4]]
+  ↳ app/models/user.rb:18
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:18
+  Rendering api/users/show.json.jbuilder
+  Rendered api/users/show.json.jbuilder (0.5ms)
+Completed 200 OK in 86ms (Views: 7.7ms | ActiveRecord: 3.8ms)
+
+
