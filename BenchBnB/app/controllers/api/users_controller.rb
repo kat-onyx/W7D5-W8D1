@@ -4,6 +4,8 @@ class API::UsersController < ApplicationController {
 
         if @user.save
             login!(@user)
+        else
+            render :json @user.errors.full_messages
         end
     end
 
