@@ -4,7 +4,7 @@ import {
     LOGOUT_CURRENT_USER,
     RECEIVE_SESSION_ERRORS
 } from '../actions/sessions_actions';
-import merge from 'loash/merge'
+import merge from 'lodash/merge'
 
 const _nullUser = Object.freeze({
     id: null

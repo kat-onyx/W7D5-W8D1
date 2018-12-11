@@ -4,7 +4,7 @@ import {
     RECEIVE_SESSION_ERRORS
 } from '../actions/sessions_actions';
 
-const sessionErrorsReducer = (state, action) => {
+const sessionErrorsReducer = (state = [], action) => {
     switch(action.type) {
         case RECEIVE_SESSION_ERRORS:
             return {errors: action.errors}
@@ -14,3 +14,5 @@ const sessionErrorsReducer = (state, action) => {
             return state;
     }
 }
+
+export default sessionErrorsReducer;
